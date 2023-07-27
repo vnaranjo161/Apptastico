@@ -36,6 +36,7 @@ ul li a{
 ul li :hover{
     background-color: #3a444c;
     border-radius: 15px;
+    box-shadow: 1px 3px  rgba(104, 117, 129, 0.811);
 }
 
 body{
@@ -48,6 +49,7 @@ footer{
     padding: 10px;
     align-items: center;
     color: #a6a6a6;
+    margin: 0 3% 0 3%;
 }
 span{
     color: #6bbcfb;
@@ -118,7 +120,7 @@ span{
     color: white;
     margin: 15px 0 0 10px;
     min-width: 100px;
-
+    cursor: pointer;
 }
 
 #botonCompra{
@@ -128,6 +130,7 @@ span{
     border: none;
     border-radius: 30px;
     margin: 15px 10px 5px 0;
+    cursor: pointer;
 }
 
 /*CLASES*/
@@ -151,6 +154,7 @@ span{
     color: white;
     border: none;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .container{
@@ -172,7 +176,7 @@ span{
 
 .projects div img{
     width: 20%;
-    border: #797979 solid 3px;
+    border: #797979 solid 2px;
     margin-top: 20px;
 }
 
@@ -201,6 +205,10 @@ span{
     width: 25px;
     height: 25px;
     margin-right: 10px;
+}
+.fecha{
+    font-size: smaller;
+    color: #878787;
 }
 
 
